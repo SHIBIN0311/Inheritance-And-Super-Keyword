@@ -3,7 +3,10 @@ class A {
 }
 
 class B extends A {
+  @override
+  String data = "Hello";
   void printData() {
+    print(data);
     print(super.data);
   }
 }
